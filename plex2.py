@@ -349,7 +349,7 @@ def module_2_logic():
             st.subheader("1. Coefficients & Test de Student")
             st.dataframe(bj_df)
             st.write(f"$t_{{tab}}$ (0.05, {ddl_err}): **{t_tab:.3f}**")
-            st.write(f"Nombre de coefficients significatifs ($\lambda$): **{lambda_val}**")
+            st.write(f"Nombre de coefficients significatifs ($\\lambda$): **{lambda_val}**")
             
             # 8. Recherche de Biais (Validation du modèle réduit) - (Page 63)
             # Uses the REDUCED model (bjs)
