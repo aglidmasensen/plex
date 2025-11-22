@@ -1,6 +1,6 @@
 streamlit
 pandas
 numpy
-scipy
+scipy.stats
 plotly
 xlsxwriter
